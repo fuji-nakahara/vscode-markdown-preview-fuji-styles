@@ -15,6 +15,7 @@
             "./fuji-markdown.css"
         ]
     },
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/fuji-nakahara/vscode-markdown-preview-fuji-styles"
