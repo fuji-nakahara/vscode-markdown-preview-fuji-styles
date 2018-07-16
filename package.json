@@ -11,6 +11,9 @@
         "Other"
     ],
     "contributes": {
+        "markdown.previewStyles": [
+            "./fuji-markdown.css"
+        ]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install"

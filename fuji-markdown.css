@@ -1,0 +1,100 @@
+body {
+    font-family: 游明朝, YuMincho, "ヒラギノ明朝 Pr6N", "Hiragino Mincho Pr6N", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 StdN", "Hiragino Mincho StdN", HiraMinProN-W3, HGS明朝B, HG明朝B, dcsymbols, "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ Pr6N", "Hiragino Kaku Gothic Pr6N", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ StdN", "Hiragino Kaku Gothic StdN", "Segoe UI", Verdana, メイリオ, Meiryo, sans-serif !important;
+    padding: 26px 0;
+    line-height: 1.8 !important;
+    writing-mode: vertical-rl;
+}
+
+body.scrollBeyondLastLine {
+    margin-bottom: 0;
+    margin-left: calc(100vw - 22px);
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    width: 100%;
+    height: 0;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+    left: 0;
+    top: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+    border-left: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+    border-left: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+    border-top: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+    border-left: 0;
+    border-top: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+    border-left: 0;
+    border-top: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+    border-top: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+    border-left: 0;
+    border-top: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+    border-left: 0;
+    border-top: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+    border-top: none;
+}
+
+hr {
+    border: 0;
+    width: 0;
+    margin: 1.8em;
+}
+
+h1 {
+    padding-bottom: 0;
+    padding-left: 0.3em;
+    line-height: 1.4;
+    border-bottom: 0;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.vscode-body {
+    margin-left: 1em;
+}
+
+.vscode-body p {
+    margin: 0;
+}
+
+.vscode-body em {
+    font-style: normal;
+    text-emphasis-style: filled sesame;
+    -webkit-text-emphasis-style: filled sesame;
+}
