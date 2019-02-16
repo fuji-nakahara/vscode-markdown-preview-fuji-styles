@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.1]
+
+- Update dependencies
+
 ## [0.1.0] - 2018-07-16
 
 - Initial release
