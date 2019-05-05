@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.3]
+
+- Update dependencies
+
 ## [0.1.2]
 
 - Update dependencies
